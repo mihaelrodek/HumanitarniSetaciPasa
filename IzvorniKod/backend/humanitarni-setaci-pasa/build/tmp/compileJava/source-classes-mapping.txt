@@ -1,0 +1,122 @@
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/jwt/JwtUtils.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.jwt.JwtUtils
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/services/UserDetailsImpl.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.services.UserDetailsImpl
+hr/fer/progi/oneclick/humanitarnisetacipasa/HumanitarniSetaciPasaApplication.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.HumanitarniSetaciPasaApplication
+hr/fer/progi/oneclick/humanitarnisetacipasa/responses/RegistrationField.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.responses.RegistrationField
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/jwt/AuthTokenFilter.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.jwt.AuthTokenFilter
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/PlaceController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.PlaceController
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/PlaceRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.PlaceRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/requests/AnimalForWalkRequest.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.requests.AnimalForWalkRequest
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/PlaceModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.PlaceModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/BreedRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.BreedRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/responses/RegistrationValidationErrorResponse.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.responses.RegistrationValidationErrorResponse
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Gender.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Gender
+hr/fer/progi/oneclick/humanitarnisetacipasa/requests/WalkRequest.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.requests.WalkRequest
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Place.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Place
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/jwt/AuthEntryPointJwt.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.jwt.AuthEntryPointJwt
+hr/fer/progi/oneclick/humanitarnisetacipasa/exceptions/ValidationException.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.exceptions.ValidationException
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/Roles.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.Roles
+hr/fer/progi/oneclick/humanitarnisetacipasa/requests/LoginRequest.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.requests.LoginRequest
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/WalkRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.WalkRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/AnimalRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.AnimalRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/WebConfig.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.WebConfig
+hr/fer/progi/oneclick/humanitarnisetacipasa/responses/JwtResponse.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.responses.JwtResponse
+hr/fer/progi/oneclick/humanitarnisetacipasa/responses/ErrorType.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.responses.ErrorType
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/WalkType.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.WalkType
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/WalkController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.WalkController
+hr/fer/progi/oneclick/humanitarnisetacipasa/services/AccountService.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.services.AccountService
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Animal.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Animal
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/CalendarEntryModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.CalendarEntryModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/AssociationModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.AssociationModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/StatisticsModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.StatisticsModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/AssociationRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.AssociationRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/AssociationShortInfoModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.AssociationShortInfoModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Walk.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Walk
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/BreedController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.BreedController
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/RegistrationController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.RegistrationController
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Citizen.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Citizen
+hr/fer/progi/oneclick/humanitarnisetacipasa/requests/AssociationAccountRequest.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.requests.AssociationAccountRequest
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/CitizenRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.CitizenRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/CalendarController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.CalendarController
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/CitizenAccountModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.CitizenAccountModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Association.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Association
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/LoginController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.LoginController
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/AccountController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.AccountController
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/Breed.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.Breed
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/AssociationAccountModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.AssociationAccountModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/WebSecurityConfig.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.WebSecurityConfig
+hr/fer/progi/oneclick/humanitarnisetacipasa/requests/CitizenAccountRequest.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.requests.CitizenAccountRequest
+hr/fer/progi/oneclick/humanitarnisetacipasa/services/StatisticsService.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.services.StatisticsService
+hr/fer/progi/oneclick/humanitarnisetacipasa/security/services/UserDetailsServiceImpl.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.security.services.UserDetailsServiceImpl
+hr/fer/progi/oneclick/humanitarnisetacipasa/requests/EditAnimalRequest.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.requests.EditAnimalRequest
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/AssociationController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.AssociationController
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/BreedModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.BreedModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/StatisticsController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.StatisticsController
+hr/fer/progi/oneclick/humanitarnisetacipasa/repositories/UserRepository.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.repositories.UserRepository
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/RankingEntryModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.RankingEntryModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/entities/User.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.entities.User
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/ImageController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.ImageController
+hr/fer/progi/oneclick/humanitarnisetacipasa/controllers/AnimalController.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.controllers.AnimalController
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/AnimalModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.AnimalModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/GlobalStatisticsModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.GlobalStatisticsModel
+hr/fer/progi/oneclick/humanitarnisetacipasa/models/CitizenShortInfoModel.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.models.CitizenShortInfoModel

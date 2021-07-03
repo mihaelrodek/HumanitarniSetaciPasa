@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="postgres://mkeefijrzcudvs:8f452972d61029745312baac514796e9f43afe839f5485d3ff8c24afa07d67ea@ec2-54-170-123-247.eu-west-1.compute.amazonaws.com:5432/dbnv7cmb58buhl" uuid="cfbdb8df-ed55-4e39-873c-a1045fcf769b">
+      <database-info product="PostgreSQL" version="12.2" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>mkeefijrzcudvs</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="humanitarni-setaci-pasa" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+hr/fer/progi/oneclick/humanitarnisetacipasa/HumanitarniSetaciPasaApplicationTests.java
+ hr.fer.progi.oneclick.humanitarnisetacipasa.HumanitarniSetaciPasaApplicationTests

@@ -1,0 +1,28 @@
+image: node:latest
+
+stages:
+  - on-merge-request-build-backend
+  - deploy-on-develop
+
+on-merge-request-build-backend:
+  stage: on-merge-request-build-backend
+  image: gradle:6.3-jdk14
+  script:
+    - export GRADLE_USER_HOME=`pwd`/.gradle
+    - gradle clean build --stacktrace
+  only:
+    - merge_request
+
+deploy-on-develop:
+  stage: deploy-on-develop
+  image: ruby:latest
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - cd IzvorniKod
+    - cd backend
+    - cd humanitarni-setaci-pasa
+    - dpl --provider=heroku --app=$HEROKU_APP_DEV --api-key=$HEROKU_API_KEY
+  only:
+    - develop
